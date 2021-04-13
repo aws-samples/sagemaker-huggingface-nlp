@@ -1,11 +1,6 @@
-## My Project
+## SageMaker Hugging Face Distilbert NLP Model
 
-TODO: Fill this README out!
-
-Be sure to:
-
-* Change the title in this README
-* Edit your repository description on GitHub
+This Amazon SageMaker Python notebook provides a sample implementation of downloading the distilbert-base-uncased-distilled-squad model from Hugging Face and inferring, further fine-tuning, save the model to Amazon S3 and deploy the model.
 
 ## Security
 
@@ -15,3 +10,10 @@ See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more inform
 
 This library is licensed under the MIT-0 License. See the LICENSE file.
 
+## Requirements
+
+Amazon SageMaker
+
+## Installation Instructions
+
+The Python notebook can be imported into SageMaker Jupyer Lab and run. 
