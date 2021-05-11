@@ -23,8 +23,8 @@ class SquadDataset(torch.utils.data.Dataset):
         return len(self.encodings.input_ids)
 
 def get_data():
-    if not os.path.exists('squad'):
-        os.mkdir('squad')
+    if not os.path.exists('data'):
+        os.mkdir('data')
 
     url = 'https://rajpurkar.github.io/SQuAD-explorer/dataset/'
     res = requests.get(f'{url}train-v2.0.json')
